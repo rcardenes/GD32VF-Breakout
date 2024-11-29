@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "GDSemi-local")(type "KiCad")(uri "${KIPRJMOD}/KiCad-libs/symbols/GigaDeviceSemi.kicad_sym")(options "")(descr "GigaDevice ICs"))
+)

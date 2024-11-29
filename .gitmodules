@@ -1,0 +1,3 @@
+[submodule "KiCad-libs"]
+	path = KiCad-libs
+	url = https://github.com/rcardenes/KiCad-libs.git

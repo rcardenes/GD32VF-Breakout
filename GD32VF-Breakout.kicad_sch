@@ -2262,7 +2262,7 @@
 				)
 			)
 		)
-		(symbol "GigaDeviceSemi:GD32VF103Tx"
+		(symbol "GDSemi-local:GD32VF103Tx"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -11248,7 +11248,7 @@
 		)
 	)
 	(symbol
-		(lib_id "GigaDeviceSemi:GD32VF103Tx")
+		(lib_id "GDSemi-local:GD32VF103Tx")
 		(at 251.46 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11275,7 +11275,7 @@
 			)
 		)
 		(property "Footprint" "Packages:QFN-36_EP_6x6_Pitch0.5mm"
-			(at 246.38 106.68 0)
+			(at 248.412 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11284,7 +11284,7 @@
 			)
 		)
 		(property "Datasheet" "https://github.com/riscv-mcu/GD32VF103_DataSheets/blob/6607c559bd9a109a64227bdaac332bbb126cf24f/GD32VF103_Datasheet_Rev_1.0.pdf"
-			(at 246.38 106.68 0)
+			(at 247.904 131.826 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11293,7 +11293,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 246.38 106.68 0)
+			(at 246.38 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
