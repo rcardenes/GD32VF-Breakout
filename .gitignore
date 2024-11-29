@@ -1,0 +1,6 @@
+*.lck
+/*-backups
+/assembly
+/gerber
+/production
+/fabrication
