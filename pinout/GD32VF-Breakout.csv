@@ -1,0 +1,79 @@
+# Setup phase
+LABELS, DEFAULT, TYPE, GROUP, Name
+BORDER COLOR, grey
+BORDER WIDTH, 2
+BORDER OPACITY, 1
+FILL COLOR, white, white, white, white, deepskyblue, black, yellow, green, cornflowerblue, plum, yellow, grey
+OPACITY, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1
+FONT , Rubik, , , Work Sans, Work Sans
+FONT SIZE , 25, , , 25, 25
+FONT COLOR , black, , , , , white
+FONT SLANT , normal , , , , , 
+FONT BOLD , 700 , , , 700 
+FONT STRETCH , normal 
+FONT OUTLINE , yellow , , , , blue
+FONT OUTLINE THICKNESS, 0.1
+BOXES, STD
+
+WIRE, DIGITAL, black, 1, 5
+WIRE, POWER, black, 1, 10
+
+BOX, STD, black, 1, white, 0, 1, 100, 55, 2, 2, 0, 0
+BOX, PAGE BORDER, black, 1, white, 1, 50, 100,100,0,0,0,0
+
+GROUP, ABANK, chartreuse, 0.5
+GROUP, BBANK, deepskyblue, 0.5
+GROUP, COMBINED, chocolate, 0.5
+GROUP, POWER, black, 0
+GROUP, NONE, grey, 0.1
+
+PAGE, A3-L
+DPI, 300
+
+# Draw phase
+DRAW
+GOOGLEFONT,"https://fonts.googleapis.com/css?family=BenchNine:300,400,700|Pragati+Narrow:700|Rubik|Ruslan+Display|Work+Sans:700,800,900"
+
+# Title
+MESSAGE, 1700, 275, 175, Heading, 250, CENTER, TOP
+TEXT, black, blue, GD32VF Breakout, NL
+
+BOX, PAGE BORDER, 0,0, 100%, 100%
+
+# Left Side Pins
+# PINSET, Side, Packed, JustifyX, JustifyY, PinWidth, GroupWidth, LeaderOffset, ColumnGap, LeaderHStep
+ANCHOR, 1370, 755
+PINSET, LEFT, PACKED, CENTER, CENTER, 74.75, 30, 45, 60, 10, 0
+PINTEXT, POWER, IO, POWER, GND, PowerPin, Ground Reference
+PINTEXT, POWER, IO, COMBINED, RST, PowerPin, Board Master Reset (Active Low)
+PIN, DIGITAL, IO, ABANK, PA0
+PIN, DIGITAL, IO, ABANK, PA1
+PIN, DIGITAL, IO, ABANK, PA2
+PIN, DIGITAL, IO, ABANK, PA3
+PIN, DIGITAL, IO, ABANK, PA4
+PIN, DIGITAL, IO, ABANK, PA5
+PIN, DIGITAL, IO, ABANK, PA6
+PIN, DIGITAL, IO, ABANK, PA7
+PIN, DIGITAL, IO, BBANK, PB0
+PIN, DIGITAL, IO, BBANK, PB1
+PINTEXT, POWER, OUTPUT, POWER, +3.3V, PowerPin, 3.3V Switched Supply
+PINTEXT, POWER, IO, POWER, GND, PowerPin, Ground Reference
+PINTEXT, POWER, OUTPUT, POWER, VBUS, PowerPin, 5V USB Supplied
+
+# Right Side Pins
+ANCHOR, 2135, 830
+PINSET, RIGHT, PACKED, CENTER, CENTER, 74.75, 30, 45, 60, 10, 0
+PINTEXT, POWER, IO, POWER, GND, PowerPin, Ground Reference
+PINTEXT, POWER, OUTPUT, POWER, +3.3V, PowerPin, 3.3V Switched Supply
+PIN, DIGITAL, IO, BBANK, PB9
+PIN, DIGITAL, IO, BBANK, PB8
+PIN, DIGITAL, IO, BBANK, PB5
+PIN, DIGITAL, IO, BBANK, PB4
+PIN, DIGITAL, IO, BBANK, PB3
+PIN, DIGITAL, IO, BBANK, PB12
+PIN, DIGITAL, IO, BBANK, PB13
+PIN, DIGITAL, IO, BBANK, PB14
+PIN, DIGITAL, IO, ABANK, PA10
+PIN, DIGITAL, IO, ABANK, PA9
+PIN, DIGITAL, IO, ABANK, PA8
+PINTEXT, POWER, IO, POWER, GND, PowerPin, Ground Reference
